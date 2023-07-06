@@ -1,0 +1,13 @@
+-- 查询指定标题的所有评论信息。
+SELECT *
+FROM video_base_info AS vbi
+    LEFT OUTER JOIN comment AS c
+        ON vbi.article_id = c.article_id
+WHERE title = '新力集团';
+
+-- 查询指定标题的所有播放链接。
+SELECT *
+FROM video_base_info AS vbi
+    LEFT OUTER JOIN video_url AS vu
+        ON vbi.article_id = vu.article_id
+WHERE title = '新力集团';

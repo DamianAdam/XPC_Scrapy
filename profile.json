@@ -1,0 +1,13 @@
+{
+  "localdb": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "123456",
+    "port": 3306,
+    "database": "xpc"
+  },
+  "xpc_account": {
+    "phone_number": "待填写",
+    "password": "待填写"
+  }
+}
